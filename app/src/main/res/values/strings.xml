@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Zharys</string>
+    <string name="action_settings">Settings</string>
+    <string name="zhachenie_true">true</string>
+    <string name="detail_title">Title</string>
+    <string name="date_title">Date</string>
+    <string name="about_nurintech">Министерство образования и науки РК, «Атамекен» совместно с Ассоциацией «Болашак» запустила конкурс стартап-проектов в сфере образования «EduTech».
+    Имена победителей станут известны 22 августа на пленарном заседании Республиканской августовской конференции. Конкурс «EduTech» будет проходить в несколько этапов.</string>
+    <string name="app_version">Zharys V1.0.7</string>
+</resources>

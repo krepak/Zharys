@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="16dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="50dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Name"
+                android:id="@+id/nameTxt"
+                android:padding="1dp"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="40dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#808080"
+                android:text="Категория соревы"
+                android:lines="1"
+                android:id="@+id/descTxt"
+                android:padding="1dp"
+                android:layout_alignParentLeft="true"
+                android:visibility="gone"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Дедлайн"
+                android:textColor="#ff0000"
+                android:textStyle="italic"
+                android:id="@+id/propellantTxt" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/opiskaTxt"
+                android:visibility="gone"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:visibility="gone"
+                android:id="@+id/fotoelement"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/ssikaskritaya"/>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
