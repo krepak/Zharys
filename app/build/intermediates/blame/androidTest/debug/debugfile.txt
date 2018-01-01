@@ -1,0 +1,1 @@
+way zharys app build intermediadiates blame androidTest debug;
